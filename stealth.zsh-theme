@@ -1,6 +1,6 @@
 # Comment
 
-PROMPT='%{$fg_bold[cyan]%}☵  %{$fg_bold[green]%}%c %{$fg_bold[yellow]%}⨠ %{$reset_color%}'
+PROMPT='%{$fg_bold[cyan]%}☵  %{$fg_bold[green]%}%c %{$fg_bold[yellow]%}» %{$reset_color%}'
 
 RPROMPT='%{$fg[magenta]%}$(git_prompt_info)%{$reset_color%} $(git_prompt_status)%{$reset_color%}'
 
