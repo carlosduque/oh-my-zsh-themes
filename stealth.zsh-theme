@@ -1,6 +1,6 @@
 # Comment
 
-PROMPT='%{$fg_bold[cyan]%}☵  %{$fg_bold[green]%}%c %{$fg_bold[yellow]%}» %{$reset_color%}'
+PROMPT='%{$fg_bold[cyan]%}%n %{$fg[red]%}§ %{$fg_bold[green]%}%c %{$fg_bold[yellow]%}» %{$reset_color%}'
 
 RPROMPT='%{$fg[magenta]%}$(git_prompt_info)%{$reset_color%} $(git_prompt_status)%{$reset_color%}'
 
@@ -9,7 +9,7 @@ RPROMPT='%{$fg[magenta]%}$(git_prompt_info)%{$reset_color%} $(git_prompt_status)
 # # ✡ ✔ ✖ ✚ ✱ ✤ ✦ ❤ ➜ ➟ ➼ ✂ ✎ ✐ ⨀ ⨁ ⨂ ⨍ ⨎ ⨏ ⨷ ⩚ ⩛ ⩡ ⩱ ⩲ ⩵  ⩶ ⨠⋅
 # # ⬅ ⬆ ⬇ ⬈ ⬉ ⬊ ⬋ ⬒ ⬓ ⬔ ⬕ ⬖ ⬗ ⬘ ⬙ ⬟  ⬤ 〒 ǀ ǁ ǂ ĭ Ť Ŧ
 
-ZSH_THEME_GIT_PROMPT_PREFIX="〒"
+ZSH_THEME_GIT_PROMPT_PREFIX=":: "
 ZSH_THEME_GIT_PROMPT_SUFFIX=""
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg_bold[white]%}%{$fg[grey]%} ✦"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
