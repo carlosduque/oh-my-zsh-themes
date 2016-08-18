@@ -1,6 +1,6 @@
 # Comment
 
-PROMPT='%{$fg_bold[cyan]%}%n%{$fg[white]%}@%{$fg[cyan]%}%m %{$reset_color%}%{$fg[blue]%}%c %(?,%{$fg_bold[white]%},%{$fg_bold[blue]%})» %{$reset_color%}'
+PROMPT='%{$fg_bold[cyan]%}%n%{$fg_bold[blue]%}@%{$fg[cyan]%}%m %{$reset_color%}%{$fg[blue]%}%c %(?,%{$fg_bold[white]%},%{$fg_bold[blue]%})» %{$reset_color%}'
 
 #master ✦  ✱ ✤
 RPROMPT='%{$fg[magenta]%}$(git_prompt_info)%{$reset_color%} $(git_prompt_status)%{$reset_color%}'
